@@ -19,3 +19,5 @@ fn plus_one(x: i32) -> i32 {
 fn five() -> i32 {
     5
 }
+
+// Hehe, it's a comment
