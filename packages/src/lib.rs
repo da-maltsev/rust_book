@@ -1,5 +1,5 @@
-mod front_of_house;
 mod back_of_house;
+mod front_of_house;
 
 use crate::front_of_house::hosting;
 
@@ -15,8 +15,7 @@ pub fn eat_at_restaurant() {
     // meal.seasonal_fruit = String::from("blueberries");
 
     hosting::add_to_waitlist();
-    
+
     let order1 = back_of_house::Appetizer::Soup;
     let order2 = back_of_house::Appetizer::Salad;
 }
-
